@@ -12,3 +12,15 @@ def home():
 @app.get("/tasks")
 def get_tasks():
     return tasks
+
+@app.post("/tasks")
+def create_tasks():
+    return {"message":"This is your new created tasks"}
+
+@app.put("/tasks")
+def update_tasks():
+    return {"message":"This is the updated task"}
+
+@app.get("/hello")
+def print_hello():
+    return {"message":"from hello huuhuhhhhuh 🙂"}
