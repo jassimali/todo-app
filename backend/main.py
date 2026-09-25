@@ -13,6 +13,9 @@ tasks=[{"id":1,"title":"Learn Python","Completed":False},
 class TaskCreate(BaseModel):       #creating a blueprint of data coming ,, to define the shape of data our API expects
     title: str
 
+class TaskUpdate(BaseModel):                    #last
+    title: str
+    completed: bool
 
 
 @app.get("/")
