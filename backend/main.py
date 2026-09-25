@@ -15,7 +15,7 @@ class TaskCreate(BaseModel):       #creating a blueprint of data coming ,, to de
 
 class TaskUpdate(BaseModel):                    #last
     title: str
-    completed: bool
+    completed: str
 
 
 @app.get("/")
