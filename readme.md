@@ -1,0 +1,1 @@
+just stopped at creating db , and now need to connect it with fastapi endpoint
